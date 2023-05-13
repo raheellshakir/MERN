@@ -1,3 +1,76 @@
-.mystyle{
-    border: 1px solid black;
+/* .container{
+    display : flex;
+    width: 1000px;
+    flex-direction: space-between;
+    /* flex-wrap: wrap; */
 } 
+.flex1{
+    background-color: antiquewhite;
+    height: 200px;
+    width: 500px;
+    color: black;
+}
+
+.container1{
+    display: flex;
+    width: 1000px;
+    flex-direction: wrap;
+}
+.flex2{
+    background-color: aliceblue;
+    color: black;
+}
+
+.setImg{
+    background-image: url('./demo.jpg');
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    z-index: 9999;
+}
+.setImg2{
+    background-image: url('./denmo1.jpg');
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.mybutton button{
+    margin-top: 20px;
+    background-color: blue;
+    color: aliceblue;
+    /* height: 70px; */
+    /* width: 150px; */
+    padding: 14px 50px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.6s  linear;    
+}
+.mybutton button:hover {
+    background-color: transparent;
+    color: black;
+    border:1px solid black;
+    transform: translateY(-10px);
+    transition: background-color 0.6s  linear;   
+}
+
+.myimage1 img{
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (min-width: 600px){
+    button {
+        background-color: steelblue;
+        width: 100%;
+    }
+} */
+
+
+.myflx1{
+    
+}
