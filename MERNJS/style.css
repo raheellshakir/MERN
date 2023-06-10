@@ -1,0 +1,52 @@
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card {
+    margin: 30px auto;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+input[type="number"] {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 30px auto;
+}
+
+#result {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
