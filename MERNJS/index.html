@@ -6,47 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="card">
-        <h1>Percentage Calculator</h1>
-        <form onsubmit="calculate(); return false">
-            <table>
-                <tr>
-                    <th>Subject</th>
-                    <th>Obtain Mark</th>
-                    <th>Out of</th>
-                </tr>
-                <tr>
-                    <td>English</td>
-                    <td><input type="number" name="English" id="sub1"></td>
-                    <td><input type="number" name="Total English" id="tsub1"></td>
-                </tr>
-                <tr>
-                    <td>Urdu</td>
-                    <td><input type="number" name="Urdu" id="sub2"></td>
-                    <td><input type="number" name="Total Urdu" id="tsub2"></td>
-                </tr>
-                <tr>
-                    <td>Math</td>
-                    <td><input type="number" name="Math" id="sub3"></td>
-                    <td><input type="number" name="Total Math" id="tsub3"></td>
-                </tr>
-                <tr>
-                    <td>Farsi</td>
-                    <td><input type="number" name="Farsi" id="sub4"></td>
-                    <td><input type="number" name="Total Farsi" id="tsub4"></td>
-                </tr>
-            </table>
-            <button type="submit" class="btn btn-secondary">Calculate</button>
-        </form>
 
-        <div id="result"></div>
-    </div>
+    <label for="">what table you want to write</label>
+    <input type="text" id="tblNum">
+    <input type="button" value="Print table" onclick="myTable()">
+    <p id="prttbl"></p>
     <script src="index.js"></script>
 </body>
 
